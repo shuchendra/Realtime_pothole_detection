@@ -22,9 +22,17 @@ Each detected pothole is tagged with precise GPS coordinates and stored in a cen
 
 ## Future enhancements
 * Automated Reporting to Authorities: Detected damage is reported to the government road department via a web interface. Employees can view the data sorted by date and time, with access to interactive maps showing the damaged locations.
-* Real-time Alerts: Improve notification system to include push notifications for mobile devices.
+* Real-time Alerts: Improve the notification system to include push notifications for mobile devices.
 * Advanced Analytics: Introduce advanced analytics and machine learning for better road condition predictions.
 * Mobile App: Develop a mobile app for employees to manage repairs directly from the field.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Requirements 
+Refer to requirements.txt to know the versions required to run the application<br>
+
+### `pip install -r requirements.txt` <br>
+
+is the command to install Python packages
+
