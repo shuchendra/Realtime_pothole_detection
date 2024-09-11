@@ -31,8 +31,36 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Requirements 
 Refer to requirements.txt to know the versions required to run the application<br>
-
 ### `pip install -r requirements.txt` <br>
-
 is the command to install Python packages
 
+## Demo
+1) To run the code, go to the terminal and enter command -
+   ### `streamlit run home.py`
+   After running, the below screen is displayed
+   ![image](https://github.com/user-attachments/assets/8a449dfd-c7cf-4e52-9697-52445ace322a)
+
+2) There are 3 options available for the user to choose from
+* Image Detection
+* Video Detection
+* Real-time Detection
+
+## Image Detection
+![image](https://github.com/user-attachments/assets/7ea61047-f840-4f6c-bd03-b95a4e555098)
+The user can now upload a picture that is present on the device from which the potholes will be identified
+
+![image](https://github.com/user-attachments/assets/bf1041cf-1b68-4048-aa78-a0ba099fc355)
+The Output can also be downloaded
+
+## Video Detection 
+![image](https://github.com/user-attachments/assets/071d2389-a91c-434a-a9d1-4794d23e06d0)
+A similar drag-and-drop feature is available for uploading videos to identify potholes. The maximum size of the video is 1GB.
+
+![image](https://github.com/user-attachments/assets/60c707ff-2780-4b72-b135-552d196e5f2b)
+The video is processed bit by bit and the potholes are identified
+
+## Real-time Detection 
+Detect the road damage in real time using a USB Webcam. This can be useful for on-site monitoring with personnel on the ground. Select the video input device and start the inference.
+When a pothole is detected both the longitudes and the latitudes (the Geocoordinates of the device) are identified by an API call and stored in a database.
+There is an option to select a device with a video feed available.
+![image](https://github.com/user-attachments/assets/072d8fdf-e86a-4942-9165-d9c22fd22522)
